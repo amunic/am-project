@@ -1,0 +1,11 @@
+[lbservers]
+loadbalancer1 ansible_host=10.42.0.6
+
+[wildflyservers]
+wildfly1 ansible_host=10.42.0.7
+wildfly2 ansible_host=10.42.0.8
+
+[dev]
+loadbalancer1
+wildfly1
+wildfly2
